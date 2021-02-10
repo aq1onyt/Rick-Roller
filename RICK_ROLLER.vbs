@@ -7,7 +7,7 @@ WScript.Sleep(2000)
 WshShell.SendKeys "{ENTER}"
 WScript.Sleep(3000)
 WScript.Sleep(100)
-WScript.Sleep(10000)
+WScript.Sleep(5000)
 WshShell.Run "%windir%\notepad.exe"
 WshShell.AppActivate "Notepad"
 WScript.Sleep(1000)
